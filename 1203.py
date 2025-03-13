@@ -102,7 +102,7 @@ class API:
             print("Error Completing Order:", e)
             return None
 
-    def get_order(self, order_type='1204'):
+    def get_order(self, order_type='1241'):
         """ Fetch order details """
         data = {"key": self.api_key, "action": "getOrder", "type": order_type}
         try:
